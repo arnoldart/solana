@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../font/Helvetica.ttf') format('ttf');
+}
+
+body {
+  background-color: #000000;
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.button_gradient {
+  background: rgb(140, 1, 250);
+  background: linear-gradient(90deg, rgba(140, 1, 250, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
