@@ -17,3 +17,9 @@ body {
   background: rgb(140, 1, 250);
   background: linear-gradient(90deg, rgba(140, 1, 250, 1) 0%, rgba(0, 0, 0, 1) 100%);
 }
+
+/* .text_gradient_active_account_num {
+  background-image: linear-gradient(90deg, rgba(140, 1, 250, 1) 0%, rgba(25, 251, 155, 1) 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+} */
